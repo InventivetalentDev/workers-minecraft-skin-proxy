@@ -1,0 +1,16 @@
+{
+  "name": "workers-minecraft-skin-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev"
+  },
+  "author": {
+    "name": "Haylee Schäfer",
+    "url": "https://inventivetalent.org"
+  },
+  "devDependencies": {
+    "wrangler": "^3.17.0"
+  }
+}

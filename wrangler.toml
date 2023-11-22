@@ -1,0 +1,15 @@
+name = "minecraft-skin-proxy"
+main = 'worker.js'
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2023-11-22"
+
+kv_namespaces = [
+    { binding = "SKIN_PROXY", id = "69477578bba942bca023bf5ed17ae9a6" }
+]
+
+[vars]
+USERNAME_TTL=86400
+PROFILE_TTL=86400
+SKIN_TTL=86400
+ORIGIN_WHITELIST=""
